@@ -49,7 +49,7 @@ jukebox/
 
 1. Clonar el repositorio o descargar el codigo fuente:
    ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   git clone https://github.com/tu-usuario/ACT2-DESARROLLO-CLIENTE.git
    ```
 2. Dado que el proyecto realiza una peticion `fetch()` local para cargar el archivo `songs.json`, es necesario ejecutarlo a traves de un servidor local para evitar bloqueos por politicas CORS del navegador.
 3. Se recomienda usar la extension **Live Server** de Visual Studio Code:
