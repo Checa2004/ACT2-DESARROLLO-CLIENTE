@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jukebox - Reproductor Musical Checa</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"></script>
+</head>
+<body>
+
+  <h1>Reproductor Musical</h1>
+
+  <div class="container">
+    <section class="playlist-section">
+      <h2>Lista de reproducción</h2>
+      <ul id="playlist"></ul>
+    </section>
+
+    <section class="player-section">
+      <h2>Sonando ahora</h2>
+      <img id="track-cover" src="" alt="Portada" width="180">
+      <h3 id="track-title">-</h3>
+      <p id="track-artist">-</p>
+      <button id="btn-play">Play</button>
+    </section>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

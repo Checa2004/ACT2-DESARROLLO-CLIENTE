@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Goblin, Tinker, Soldier, Spy",
+    "artist": "Kevin MacLeod",
+    "genre": "Soundtrack",
+    "file": "assets/audio/Goblin_Tinker_Soldier_Spy.mp3",
+    "cover": "assets/images/goblintinkersoldierspy.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Grand Dark Waltz Trio Vivace",
+    "artist": "Kevin MacLeod",
+    "genre": "Classical",
+    "file": "assets/audio/Grand Dark Waltz Trio Vivace.mp3",
+    "cover": "assets/images/granddarkwatztrio.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Journey To Ascend",
+    "artist": "Kevin MacLeod",
+    "genre": "Cinematic",
+    "file": "assets/audio/Journey To Ascend.mp3",
+    "cover": "assets/images/journeytoascend.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Mesmerizing Galaxy Loop",
+    "artist": "Kevin MacLeod",
+    "genre": "Ambient",
+    "file": "assets/audio/Mesmerizing Galaxy Loop.mp3",
+    "cover": "assets/images/galaxy.jpg"
+  }
+]

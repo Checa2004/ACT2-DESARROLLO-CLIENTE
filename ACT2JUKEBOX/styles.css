@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  gap: 24px;
+  max-width: 900px;
+}
+
+.playlist-section {
+  flex: 1;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.playlist-section h2 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #94a3b8;
+}
+
+#playlist {
+  list-style: none;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+#playlist li {
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 6px;
+  background: #0f172a;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+#playlist li:hover {
+  background: #334155;
+}
+
+.player-section {
+  width: 280px;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-section h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #818cf8;
+  margin-bottom: 14px;
+}
+
+#track-cover {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 14px;
+}
+
+#track-title {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+#track-artist {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 16px;
+}
+
+#btn-play {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#btn-play:hover {
+  background-color: #4338ca;
+}
